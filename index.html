@@ -6,7 +6,41 @@
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- body -->
+<!-- unpeu -->
+    <script type="text/javascript">//<![CDATA[
+  (function() {
+      var configuration = {
+      "token": "dda8a6daaddb95468184e0a41885f117",
+      "excludeDomains": [
+          "https://kikim5959.github.io/coachsport/"
+      ],
+      "capping": {
+          "limit": 3,
+          "timeout": 24
+      },
+      "entryScript": {
+          "type": "timeout",
+          "timeout": 3000,
+          "capping": {
+              "limit": 5,
+              "timeout": 24
+          }
+      },
+      "exitScript": {
+          "enabled": true
+      },
+      "popUnder": {
+          "enabled": true
+      }
+  };
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = '//cdn.shorte.st/link-converter.min.js';
+      script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+      var entry = document.getElementsByTagName('script')[0];
+      entry.parentNode.insertBefore(script, entry);
+  })();
+  //]]></script>
   </head><body>
     <div class="cover">
       <div class="navbar" id="haut">
@@ -26,7 +60,7 @@
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="contact.html">Contacts</a>
+                <a href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -97,7 +131,7 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <a href="#haut">Haute de page<i class="fa fa-3x fa-fw fa-angle-double-up"></i></a>
+            <a href="#haut">Haute De la page<i class="fa fa-3x fa-fw fa-angle-double-up"></i></a>
           </div>
         </div>
       </div>
@@ -137,38 +171,5 @@
 
     <p class="copyright text-muted" style="text-align: center">Copyright © aKIMM </p>
 
-<script type="text/javascript">//<![CDATA[
-(function() {
-    var configuration = {
-    "token": "dda8a6daaddb95468184e0a41885f117",
-    "excludeDomains": [
-        "https://kikim5959.github.io/Plombier/"
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
-    "entryScript": {
-        "type": "timeout",
-        "timeout": 3000,
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
+
 </body></html>
